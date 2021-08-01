@@ -1,0 +1,72 @@
+.c-logo{
+    font-size:30px;
+    padding: 5px;
+    color: blue;
+    font-weight: bolder;
+}
+.nav-link{
+    color:red;
+    font-weight:bold;
+}
+.nav-link:hover{
+    color:blue;
+    font-weight: bold;
+}
+.e-border{
+    border: thistle solid 3px;
+}
+.e-margin{
+    margin-left: 50px;
+}
+footer{
+    color: white;
+    margin-top: 30px;
+    background-color: blueviolet;
+    padding: 10px;
+    height: 40px;
+}
+footer p{
+    float: left;
+}
+footer figure{
+    float: right;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+}
+footer a:hover{
+    color: red;
+}
+#mytopbtn{
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    display: none;
+}
+.p-border{
+    border: black solid 5px;
+    border-spacing: 20px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: red;
+}
+.c-fill{
+    background: linear-gradient(to right,blue 50%,white 50% );
+    background-size: 200%;
+    background-position:right ;
+    transition: .5s ease;
+}
+.c-fill:hover{
+    color: black;
+    background-position:left ;
+}
+
+
